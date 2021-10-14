@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <meta name="theme-color" content="#ffffff">
+   
+    <script src="https://kit.fontawesome.com/f225150e15.js" crossorigin="anonymous"></script>
+    
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.6/build/grids-responsive-min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.6/build/pure-min.css">
+    <title>
+        Morsecode 
+    </title>
+    <link  href="morsecode.css" rel="stylesheet">
+    
+   
+  
+</head>
+
+<body>
+     <i class="far fa-file-code fa-5x"></i>
+    <div class="hero-image">
+        <div class="hero-image2">
+        <form class="pure-form pure-form-stacked">
+            <fieldset>
+                <legend>Translate a message</legend>
+                <label for="input">Input<i class="fas fa-smile fa-2x"></i></label>
+                <textarea id="input" name="input" rows="4" cols="70"></textarea>
+                <button type="submit" class="pure-button pure-button-primary"
+                    onclick="c2mc(); return false">C2MC</button>
+                <button type="submit" class="pure-button pure-button-primary"
+                    onclick="mc2c(); return false">MC2C</button>
+                <button type="submit" class="pure-button pure-button-primary"
+                    onclick="clearArea(); return false">Clear</button>
+                <label for="output">Output<i class="fas fa-smile fa-2x"></i></label>
+                <textarea id="output" name="output" rows="4" cols="70"></textarea>
+            </fieldset>
+        </form>
+    </div>
+</div>
+   
+    
+    <script src="morsecodeScript.js"></script>
+    <script src="passwordScript.js"></script>
+</body>
+
+</html>

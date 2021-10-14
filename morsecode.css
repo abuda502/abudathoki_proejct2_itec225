@@ -1,0 +1,42 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap');
+
+    body{
+        padding : 0;
+        margin : 0;
+        box-sizing: border-box;
+        background-color: #c6d205;
+background-image: url("data:image/svg+xml,%3Csvg width='84' height='16' viewBox='0 0 84 16' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M78 7V4h-2v3h-3v2h3v3h2V9h3V7h-3zM30 7V4h-2v3h-3v2h3v3h2V9h3V7h-3zM10 0h2v16h-2V0zm6 0h4v16h-4V0zM2 0h4v16H2V0zm50 0h2v16h-2V0zM38 0h2v16h-2V0zm28 0h2v16h-2V0zm-8 0h6v16h-6V0zM42 0h6v16h-6V0z' fill='%23ac9295' fill-opacity='1' fill-rule='evenodd'/%3E%3C/svg%3E");}
+    
+html{
+    font-family: 'Libre Baskerville', serif;
+}
+
+.hero-image {
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+    background-image: linear-gradient(rgba(16, 239, 247, 0.5), rgba(22, 209, 100, 0.5)), url("https://th.bing.com/th/id/R.7402b71ea51d6519b12653bca0f31cf1?rik=BSp8uv2ve9BIqA&pid=ImgRaw&r=0");
+  
+    /* Set a specific height */
+    height: 100%;
+  
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center ;
+    background-repeat: space-repeat;
+    background-size: 20%;
+    position: relative;
+  }
+  .hero-image2 {
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+    background-image: linear-gradient(rgba(236, 22, 22, 0.5), rgba(0, 0, 0, 0.5)), url("https://th.bing.com/th/id/OIP.9S5qHruJmwguo6Mv4Xj4jAHaHa?pid=ImgDet&rs=1");
+  
+    /* Set a specific height */
+    height: 100%;
+  
+    /* Position and center the image to scale nicely on all screens */
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 20%;
+    position: relative;
+  }
+  
